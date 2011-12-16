@@ -51,7 +51,6 @@ so you can use things like links and images and basically anything in Markdown.
 
 So, by using indentation for notes (effectively breaking Markdown compatibility)
 I introduced a problem - now you can't use indentation for code blocks.
-So now you can't write code blocks in the Markdown way in your slides.
 
     <pre>
         YOUR CODE HERE
