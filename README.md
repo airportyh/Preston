@@ -16,9 +16,9 @@ from github:
 
     git clone https://github.com/airportyh/Preston
     
-Then crack open the code and edit `presentation.md` to start writing the presentation.
+Then edit `presentation.md` to start writing the presentation.
 
-To run the presentation, open `index.html`, and press the "Start" button.
+To run the presentation, open `index.html`, and press the "Start Presentation" button.
 
 Presentation File Format
 ------------------------
