@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="slide">
+<head>
+<title>Presentation</title>
+<link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+<script>
+var ts = +new Date
+document.write('<link rel="stylesheet" href="style.css?"' + ts + '>')
+</script>
+<title></title>
+</head>
+<body>
+<table width="100%">
+	<tr>
+		<td id="td"><p id="content">Loading...</p></td>
+	</tr>
+</table>
+
+<script src="jquery.js"></script>
+<script>
+function fit(){
+	var td = document.getElementById('td')
+    td.style.height = window.innerHeight + 'px'
+	var text = $('#content').text()
+	  , lines = text.split('\n')
+	  , longestLineLength = lines.reduce(function(curr, line){
+			if (curr > line.length)
+				return curr
+			else
+				return line.length
+		}, 0)
+	  , maxSize = !!$('#content .maxsize').length
+	var fontSize = Math.min(
+		maxSize ? Number.POSITIVE_INFINITY : window.innerWidth / 10, 
+		1.5 * window.innerWidth / 
+			longestLineLength, 
+		0.5 * window.innerHeight / 
+			lines.length)
+	$('#content').css({'font-size': fontSize + 'px'})
+}
+$(function(){
+    $(window).resize(fit)
+	fit()
+    $(document).keyup(function(e){
+		var code = e.keyCode
+		if (code == 39)
+			nextSlide()
+		if (code == 37)
+			prevSlide()
+    })
+})
+</script>
+</body>
+</html>
