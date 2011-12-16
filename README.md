@@ -68,6 +68,13 @@ The browser support is fairly limited at the moment. Only the latest versions of
 using XHR for local files, which causes Preston to break when opened locally - although it
 works when served via HTTP.
 
+Styling
+-------
+
+If you don't like the default styling of the slides - which I can totally understand -
+seeming edit `style.css` and you are off. `index.html` is the page with the slides and the
+notes side-by-side, and `slide.html` is the page with only the slides.
+
 Credits & Thanks
 ----------------
 
