@@ -14,7 +14,7 @@ Usage
 To create your first presentation using Preston, first, you need to clone the code
 from github:
 
-    git clone https://github.com/airportyh/preston
+    git clone https://github.com/airportyh/Preston
     
 Then crack open the code and edit `presentation.md` to start writing the presentation.
 
