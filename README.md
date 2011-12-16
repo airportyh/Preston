@@ -65,7 +65,8 @@ Browser Support
 
 The browser support is fairly limited at the moment. Only the latest versions of
 ***Safari*** and ***Firefox*** have been tested to work. Chrome has a restriction against
-using XHR for local files, which causes Preston to break.
+using XHR for local files, which causes Preston to break when opened locally - although it
+works when served via HTTP.
 
 Credits & Thanks
 ----------------
