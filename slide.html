@@ -4,7 +4,8 @@
 <title>Presentation</title>
 <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
 <script>
-var ts = +new Date
+var ts = +new Date  // tag on a timestamp to avoid caching of style.css - so when you change
+					// styles, the changes will take.
 document.write('<link rel="stylesheet" href="style.css?"' + ts + '>')
 </script>
 <title></title>

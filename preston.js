@@ -96,13 +96,11 @@ function resize(){
 $(function(){
     $(window).resize(resize)
     resize()
-    $('#info').hide()
     $('#prevBtn, #nextBtn').hide()
     $.ajax({
         url: 'presentation.md',
         dataType: 'text',
         success: function(data){
-                    
             $(document).keyup(function(e){
                 var code = e.keyCode
         		if (code == 39)
@@ -111,9 +109,10 @@ $(function(){
         			prevSlide()
             })
             $('#startBtn').click(function(){
-                $('#info').show()
                 slides = parsePreston(data)
                 runSlides(slides)
+                $('.begin').removeClass('begin')
+                $('#info').html('The slides are in a separate window. Use &larr; and &rarr; to flip slides')
                 resize()
             })
         }

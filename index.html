@@ -6,23 +6,23 @@
 <link rel="stylesheet" href="style.css">
 <script src="jquery.js"></script>
 <script src="showdown.js"></script>
-<script src="fittext.js"></script>
 <script src="preston.js"></script>
 </head>
 <body>
-<div id="info">The slides are in a separate window. Use &larr; and &rarr; to flip slides</div>
-<table id="layout">
+<table id="layout" class="begin">
+<tr>
+	<td id="info" colspan="2">Welcome to Preston! Click "Start Presentation" to begin.</td>
+</tr>
 <tr>
 <td id="slide_cell">
 	<h4>Slide</h4>
 	<div id="slide">
+	<button id="startBtn" class="button">Start Presentation &raquo;</button>
 	</div>
 </td>
 <td id="notes_cell">
 	<h4>Notes</h4>
 	<div id="notes">
-	<h3>Hello. Welcome to Preston.</h3>
-	<button id="startBtn" class="button">Start Presentation &raquo;</button>
 	</div>
 </td>
 </tr>

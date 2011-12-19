@@ -121,20 +121,23 @@ a{
 }
 .notes #info{
 	background-color: #fff;
+	height: 2em;
 	color: #444;
 	text-align: center;
-	padding: 0.5em;
-	border-bottom: 1px solid #444;
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
 	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
 	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
-	z-index: 2;
 }
+.notes #layout td#info{
+	vertical-align: middle;
+}
+	
 .notes #layout{
-	z-index: 1;
 }
 
-
+.begin h4{
+	display: none;
+}
 /* Slides window */
 
 
