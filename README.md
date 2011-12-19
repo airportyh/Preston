@@ -11,7 +11,7 @@ is like [S5](http://meyerweb.com/eric/tools/s5/), or the [HTML5 slides template]
 Demo
 ----
 
-Check out the [live demo](http://airportyh.github.com/Preston/) first.
+Check out the ***[live demo](http://airportyh.github.com/Preston/)***.
 
 Usage
 -----
