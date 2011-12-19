@@ -8,6 +8,11 @@ is like [S5](http://meyerweb.com/eric/tools/s5/), or the [HTML5 slides template]
 2. There are two windows running during the presentation, one for the slides, and the other for your notes. The two windows are always synchronized.
 3. Preston is more geared towards [Takahashi style](http://presentationzen.blogs.com/presentationzen/2005/09/living_large_ta.html) presentations (big text, big graphics), although it should work with more tradition styles.
 
+Demo
+----
+
+Check out the [live demo](http://airportyh.github.com/Preston/) first.
+
 Usage
 -----
 
