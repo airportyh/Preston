@@ -84,7 +84,7 @@ Markdown
     
     links
     
-[Images](images.png)
+![Images](images.png)
 
     Images
     
