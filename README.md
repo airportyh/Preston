@@ -23,8 +23,7 @@ Then edit `presentation.md` to start writing the presentation.
 
 To run the presentation, open `index.html`, and press the "Start Presentation" button.
 
-Presentation File Format
-------------------------
+# Presentation File Format
 
 The format of `presentation.md` is based on [Markdown](http://daringfireball.net/projects/markdown/syntax), but is not exactly
 Markdown. The big difference is that, I have stolen the indentation feature of markdown
